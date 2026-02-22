@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-color: #1a1a1a;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-phone {
+    color: #ffffff;
+    font-size: 18px;
+    font-size: bold;
+}
+.header-buttons {
+    display: flex;
+    gap: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #222;
+}
+.services {
+    padding: 60px 20px;
+    text-align: center;
+
+}
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+.card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 30px;
+    width: 410px;
+    box-shadow: 0 4px 15px rgb(8, 41, 11);
+}
+h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+}
+.btn-green {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    display: block;
+    text-decoration: none;
+}
+ .btn-dark {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+ }
+ .brand-k {
+    color: #4caf50;
+    font-style: italic;
+    font-weight: bold;
+ }
+ .brand-arvo {
+    color: #a8a8a8;
+ }
+ .gallery {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #ffffff;
+ }
+ .gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+ }
+.photo {
+    width: 200px;
+    height: 200px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contacts {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #222;
+    color: #ffffff;
+}
+.contact-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn-telegram {
+    background-color: #29a8e0;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.btn-whatsapp {
+    background-color: #25d366;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.phone {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
