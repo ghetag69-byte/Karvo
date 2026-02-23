@@ -138,10 +138,23 @@ h2 {
         flex-direction: column;
         align-items: center;
     }
+    .card {
+        width: 90%;
+    }
     .header {
         flex-direction: column;
+        align-items: center;
         gap: 10px;
-        text-align: center;
+        padding: 15px;
+
+    }
+    .header-buttons {
+        width: 100%;
+        justify-content: center;
+
+    }
+    .header-phone a {
+        white-space: nowrap;
     }
 }
 
